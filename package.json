@@ -1,13 +1,25 @@
 {
-  "name": "wallid-listenerid",
+  "name": "TSP Caixa Mágica",
   "version": "1.0.0",
-  "description": "Listener lib for events in wallId",
+  "description": "Listener lib for events in TSP Caixa Mágica",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start ./lib/eventListening.js -n listenerID"
+    "start": "pm2 start ./lib/eventListening.js -n listenerTSP"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:caixa-magica-software/TSP-Listener.git"
+  },
+  "keywords": [
+    "tsp",
+    "wallid"
+  ],
   "author": "José Reis",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caixa-magica-software/TSP-Listener/issues"
+  },
+  "homepage": "https://github.com/caixa-magica-software/TSP-Listener#README.md",
   "dependencies": {
     "axios": "^0.18.0",
     "eth-lightwallet": "^3.0.1",
