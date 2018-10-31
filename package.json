@@ -1,5 +1,5 @@
 {
-  "name": "TSP Caixa Mágica",
+  "name": "TSPCaixaMagica",
   "version": "1.0.0",
   "description": "Listener lib for events in TSP Caixa Mágica",
   "main": "index.js",
